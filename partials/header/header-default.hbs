@@ -11,10 +11,11 @@
                 </div>
             {{else}}
                 <h1><a href="{{@blog.url}}">Pi&nbsp;á&nbsp;la&nbsp;code</a></h1>
-            {{/if}}
-            <nav id="nav">
+            {{/if}} <nav id="nav">
                 <!--{{navigation}}-->
-                <a href="{{@blog.url}}">Home   </a>
+                <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}" role="presentation"><a href="{{@blog.url}}">Home  </a></li>
+
+                <!--<a href="{{@blog.url}}">Home   </a>-->
                 <a href="{{@blog.url}}/about">About   </a>
                 <a href="{{@blog.url}}/cap">Girls In Tech  </a>
             </nav>

@@ -15,8 +15,7 @@ body, input, select, textarea {
 /* line 19, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
 a {
   color: #8CD9D3;
-  padding: 5px 5px 5px 5px;
-  background:#fff;
+  text-decoration: underline;
 }
   /* line 23, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style.scss */
   a:hover {

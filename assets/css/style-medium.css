@@ -57,8 +57,8 @@ body, input, select, textarea {
 
 /* line 61, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
 #navPanel {
-  background: #fff;
-  color: #8CD9D3; }
+  background: #8CD9D3;
+  color: #fff; }
   /* line 65, /Users/alex/Documents/ghost-v0.5.9/content/themes/aventurine/assets/sass/style-medium.scss */
   #navPanel nav {
     padding: 0.5em 1.25em; }
